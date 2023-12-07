@@ -7,6 +7,7 @@ final List<AoC2023Day> adventDays = [
   Day3(File('inputs/day3.txt')),
   Day4(File('inputs/day4.txt')),
   Day5(File('inputs/day5.txt')),
+  Day6(File('inputs/day6.txt')),
 ];
 
 void main(List<String> arguments) {
