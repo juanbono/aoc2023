@@ -151,7 +151,6 @@ HashMap<Color, int> parseGame(String line) {
 
     for (String cube in cubes) {
       int parsedAmount = int.parse(colorRegExp.firstMatch(cube)!.group(1)!);
-      print(parsedAmount);
       String parsedColor = colorRegExp.firstMatch(cube)!.group(2)!;
       Color? color = switch (parsedColor) {
         'red' => Color.red,

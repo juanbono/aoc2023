@@ -61,13 +61,13 @@ class Day4 extends AoC2023Day {
   Set<int> winners = scratchedNumbers[0]
       .split(' ')
       .where((s) => s.isNotEmpty)
-      .map((e) => int.parse(e))
+      .map(int.parse)
       .toSet();
 
   Set<int> numbers = scratchedNumbers[1]
       .split(' ')
       .where((s) => s.isNotEmpty)
-      .map((e) => int.parse(e))
+      .map(int.parse)
       .toSet();
 
   return (winners, numbers);
